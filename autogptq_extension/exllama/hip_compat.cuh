@@ -46,4 +46,6 @@ __host__ __forceinline__ hipblasStatus_t __compat_hipblasHgemm(hipblasHandle_t  
 #define rocblas_set_stream hipblasSetStream
 #define rocblas_hgemm __compat_hipblasHgemm
 
+#define hipblasHgemm __compat_hipblasHgemm
+
 #endif
